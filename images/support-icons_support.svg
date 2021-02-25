@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.49829853,17.5319899 C8.49829853,21.5831288 12.9038165,21.9689515 12.9038165,26.3931657 C12.9038165,28.6137711 18.7863387,28.3860167 18.7863387,26.3931657 C18.7863387,21.9995454 23.1672116,21.4182618 23.1672116,17.5319899 C23.1672116,13.4817008 19.8834691,10.1979582 15.83318,10.1979582 C11.7820411,10.1979582 8.49829853,13.4817008 8.49829853,17.5319899 Z" id="path-1"></path>
+    </defs>
+    <g id="Marketing-site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-69.000000, -3522.000000)">
+            <g id="Group-11" transform="translate(69.000000, 3522.000000)">
+                <circle id="Oval-6-Copy-2" fill="#FFFFFF" cx="27.5" cy="27.5" r="27.5"></circle>
+                <g id="Page-1" transform="translate(12.000000, 9.012918)">
+                    <g id="Group-26" transform="translate(0.000000, 0.000000)">
+                        <path d="M12.7873048,29.3822723 C12.7873048,30.0170952 14.1504319,30.4989487 15.8322452,30.4989487 C17.5140585,30.4989487 18.8780354,29.9414603 18.8780354,29.3822723" id="Stroke-4" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M13.0706381,31.9317618 C13.0706381,32.5665847 14.3071405,33.0484383 15.8325851,33.0484383 C17.3580297,33.0484383 18.5945321,32.4909499 18.5945321,31.9317618" id="Stroke-6" stroke="#FE5B79" stroke-width="0.901" stroke-linecap="round"></path>
+                        <path d="M25.0419363,11.7053014 L30.4706494,8.62806755" id="Stroke-8" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M22.2791394,6.00064859 L20.9941967,8.23060212" id="Stroke-10" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M15.8325851,7.18837079 L15.8325851,0.38973197" id="Stroke-12" stroke="#FE5B79" stroke-linecap="round"></path>
+                        <path d="M9.28192664,6.00064859 L10.5226782,8.23060212" id="Stroke-14" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M1.01359207,25.3937658 L6.54088543,22.2527947" id="Stroke-16" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M25.0776291,22.2256001 L29.9123112,24.9739499" id="Stroke-18" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <path d="M29.2705197,17.811244 L26.8799483,17.811244" id="Stroke-20" stroke="#FE5B79" stroke-linecap="round"></path>
+                        <path d="M2.23530746,17.811244 L4.78479702,17.811244" id="Stroke-22" stroke="#FE5B79" stroke-linecap="round"></path>
+                        <path d="M6.54819396,11.7053014 L0.555193843,8.27708782" id="Stroke-24" stroke="#FE5B79" stroke-width="0.946" stroke-linecap="round"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Clip-2" fill="#FE5B79" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

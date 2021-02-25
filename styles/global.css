@@ -1,0 +1,194 @@
+* {
+    font-family: "proxima-nova", Sans-Serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(135deg, #FD5B79 0%, #FF7C7A 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.global-nav {
+    height: 76px;
+    width: 95%;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.global-container {
+    background: rgba(87,47,79,0.05);
+    min-width: 100%;
+    box-sizing: border-box;
+    padding-top: 57px;
+    flex: 1 1;
+    height: 100%;
+}
+
+.global-nav-controls {
+    display: flex;
+    align-items: center;
+}
+
+.global-nav-controls > * {
+    margin-left: 23px;
+}
+
+.global-nav-controls a, .global-nav-controls input[type=submit] {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid rgba(255,255,255,0);
+    transition: .15s border-bottom ease-out;
+}
+
+.global-nav-controls a:hover {
+  border-bottom: 1px solid rgba(255,255,255,1);
+}
+
+.global-login-button input[type=submit] {
+    width: 88px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 9999px;
+    transition: 0.15s all ease-out;
+    cursor: pointer;
+    color: #FE5B79;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top: 0;
+    box-shadow: 0 0 0 rgba(0,0,0,.2) ;
+    text-align: center;
+}
+
+.global-login-button:hover input[type=submit] {
+    position: relative;
+    top: -2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2) ;
+    transition: 0.15s all ease-out;
+    outline:none;
+}
+
+.global-login-button input:focus,select:focus,textarea:focus,button:focus {
+    outline:none;
+}
+
+.global-logout-button input[type=submit] {
+    width: 88px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 9999px;
+    transition: 0.15s all;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.global-logout-button:hover input[type=submit] {
+    background: rgba(255, 255, 255, 1);
+    color: #FF7C7A;
+    outline: none;
+}
+
+.global-logout-button input:focus,select:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+.global-button {
+    height: 30px;
+    box-sizing: border-box;
+    width: auto;
+    font-size: 16px;
+    display: inline-block;
+    padding: 6px 24px 0 24px;
+    position: relative;
+    transition: 0.1s transform;
+}
+
+.global-button .global-button-border {
+    border: 1px solid #FFFFFF;
+    border-radius: 9999px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.2s width;
+    transition-delay: 0.1s;
+}
+
+.global-button-spinner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    left: 6px;
+    background-image: url("/static/spinner.png");
+    background-size: 100% 100%;
+    opacity: 0;
+    transition: 0.2s opacity;
+    transition-delay: 0.1s;
+
+    animation-name: button-spinner-spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes button-spinner-spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.global-button:active {
+}
+
+.global-button > .global-button-content {
+    transition: 0.2s all;
+}
+
+.global-button.global-button-spinning .global-button-border {
+    width: 30px;
+}
+
+.global-button.global-button-spinning .global-button-content {
+    opacity: 0;
+}
+
+.global-button.global-button-spinning .global-button-spinner {
+    opacity: 1;
+}
+
+.global-modal-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(41, 11, 50, .05);
+    z-index: 2;
+}

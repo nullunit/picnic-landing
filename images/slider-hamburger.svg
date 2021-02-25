@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>userphoto-hamburger copy13px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Marketing-site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-821.000000, -1336.000000)">
+            <g id="userphoto-hamburger-copy" transform="translate(821.000000, 1336.000000)">
+                <circle id="Oval" fill="#FCC365" cx="15" cy="15" r="15"></circle>
+                <path d="M2,16 L28,16 L28,19 C28,20.6568542 26.6568766,22 24.9920699,22 L5.00793008,22 C3.34669617,22 2,20.6534829 2,19 L2,16 Z" id="Rectangle-14" fill="#8B572A"></path>
+                <rect id="Rectangle-14-Copy" fill="#FF586C" x="2" y="14" width="26" height="2"></rect>
+                <rect id="Rectangle-14-Copy-2" fill="#78B831" x="2" y="12" width="26" height="2"></rect>
+                <rect id="Rectangle-16" fill="#F5A623" x="12" y="6" width="2" height="2"></rect>
+                <rect id="Rectangle-16-Copy-2" fill="#F5A623" x="8" y="8" width="2" height="2"></rect>
+                <rect id="Rectangle-16-Copy" fill="#F5A623" x="16" y="6" width="2" height="2"></rect>
+                <rect id="Rectangle-16-Copy-3" fill="#F5A623" x="20" y="8" width="2" height="2"></rect>
+                <circle id="Oval" stroke="#F5A623" cx="15" cy="15" r="13.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
